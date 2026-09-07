@@ -1,698 +1,1432 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yimin Zhu - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
+  <title>Yimin Zhu - Homepage</title>
+
+  <meta
+    name="description"
+    content="Academic homepage of Yimin Zhu, PhD student in Geomatics Engineering at the University of Calgary.">
+
+  <meta
+    name="keywords"
+    content="Yimin Zhu, hyperspectral image, remote sensing, geomatics, generative models, wildfire prediction, academic homepage">
+
+  <link
+    rel="icon"
+    href="assets/img/favicon.svg"
+    type="image/svg+xml">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
+  <!-- Academicons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+    integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw="
+    crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <script
+    src="https://kit.fontawesome.com/a860a211d3.js"
+    crossorigin="anonymous">
+  </script>
+
+  <!-- Local styles -->
   <link rel="stylesheet" href="assets/css/font_sans_serif.css">
   <link rel="stylesheet" href="assets/css/theme-luka.css">
 </head>
+
+
 <body class="theme-luka">
+
+  <!-- =========================================================
+       Navigation
+       ========================================================= -->
+
   <nav class="top-nav">
     <div class="nav-container">
+
       <div class="nav-left">
         <a href="./">Home</a>
       </div>
+
       <div class="nav-right">
-        <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
+        <button
+          id="themeToggle"
+          class="theme-toggle"
+          title="Toggle theme"
+          aria-label="Toggle theme">
+
           <i class="fa-solid fa-moon"></i>
+
         </button>
       </div>
+
     </div>
   </nav>
 
+
+  <!-- =========================================================
+       Main Wrapper
+       ========================================================= -->
+
   <div class="wrapper">
+
+
+    <!-- =======================================================
+         Sidebar
+         ======================================================= -->
+
     <header class="sidebar">
-  <div class="profile-card">
-    <a class="image avatar">
-      <img src="assets/img/yiminzhu.jpeg" alt="Profile avatar">
-    </a>
 
-    <h1 class="site-name">Yimin Zhu</h1>
-    <p class="site-email">yimin.zhu@ucalgary.ca</p>
+      <div class="profile-card">
 
-    <div class="social-icons">
-      <a href="mailto:yimin.zhu@ucalgary.ca" title="Email"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://scholar.google.ca/citations?user=UCreqbwAAAAJ&hl=en" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-      <a href="https://github.com/ZHUYMGeo" title="GitHub"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/yimin-zhu-245302352/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://www.researchgate.net/profile/Zhu-Yimin-4?ev=hdr_xprf" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
-    </div>
-    
-    <div class="visitor-card">
-      <div class="visitor-card-title">
-        <i class="fa-solid fa-earth-americas"></i>
-        Visitor Map
+        <!-- Profile photo -->
+        <a class="image avatar">
+          <img
+            src="assets/img/yiminzhu.jpeg"
+            alt="Yimin Zhu">
+        </a>
+
+
+        <!-- Name -->
+        <h1 class="site-name">
+          Yimin Zhu
+        </h1>
+
+        <p class="site-email">
+          yimin.zhu@ucalgary.ca
+        </p>
+
+
+        <!-- Social links -->
+        <div class="social-icons">
+
+          <a
+            href="mailto:yimin.zhu@ucalgary.ca"
+            title="Email"
+            aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+          <a
+            href="https://scholar.google.ca/citations?user=UCreqbwAAAAJ&hl=en"
+            target="_blank"
+            rel="noopener"
+            title="Google Scholar"
+            aria-label="Google Scholar">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+
+          <a
+            href="https://github.com/ZHUYMGeo"
+            target="_blank"
+            rel="noopener"
+            title="GitHub"
+            aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/yimin-zhu-245302352/"
+            target="_blank"
+            rel="noopener"
+            title="LinkedIn"
+            aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a
+            href="https://www.researchgate.net/profile/Zhu-Yimin-4?ev=hdr_xprf"
+            target="_blank"
+            rel="noopener"
+            title="ResearchGate"
+            aria-label="ResearchGate">
+            <i class="ai ai-researchgate"></i>
+          </a>
+
+        </div>
+
+
+        <!-- ===================================================
+             Visitor Map
+             =================================================== -->
+
+        <div class="visitor-card">
+
+          <div class="visitor-card-title">
+            <i class="fa-solid fa-earth-americas"></i>
+            Visitor Map
+          </div>
+
+          <div class="visitor-card-body">
+
+            <script
+              type="text/javascript"
+              id="mapmyvisitors"
+              src="https://mapmyvisitors.com/map.js?d=cYyq_LnJQ6KCqpUnMqGX2-jL4VxsaSO55RKm9birgzc&cl=ffffff&w=a">
+            </script>
+
+          </div>
+
+        </div>
+
       </div>
-    
-      <div class="visitor-card-body">
-        <script
-          type="text/javascript"
-          id="mapmyvisitors"
-          src="https://mapmyvisitors.com/map.js?d=cYyq_LnJQ6KCqpUnMqGX2-jL4VxsaSO55RKm9birgzc&cl=ffffff&w=a">
-        </script>
-      </div>
-    </div>
-  </div>
-</header>
+
+    </header>
+
+
+    <!-- =======================================================
+         Main Content
+         ======================================================= -->
 
     <section class="content">
+
+
+      <!-- =====================================================
+           About
+           ===================================================== -->
+
       <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
+
+        <h2 class="section-title">
+          About Me
+        </h2>
+
         <div class="section-body">
-          <p>Hello! I am <strong>Yimin Zhu</strong>, a PhD student in Department of Geomatics Engineering, University of Calgary, Calgary, AB, Canada. I work on 
-            hyperspectral image processing, land use and land cover (LULC) mapping, generative model for inverse problem including unmixing and wildfire prediction.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
+
+          <p>
+            Hello! I am <strong>Yimin Zhu</strong>, a Ph.D. student in the
+            Department of Geomatics Engineering at the University of Calgary,
+            Calgary, AB, Canada. My research focuses on hyperspectral image
+            processing, land use and land cover (LULC) mapping, and generative
+            models for inverse problems, including spectral unmixing and
+            wildfire prediction.
+          </p>
+
+          <p>
+            <strong>
+              <a href="#" target="_blank" rel="noopener">
+                Download my CV
+              </a>
+            </strong>
+          </p>
+
         </div>
+
       </div>
 
-<div class="section" id="education">
-  <h2 class="section-title">Education</h2>
-  <div class="section-body">
 
-    <!-- University of Calgary -->
-    <div class="card">
-      <div class="experience-item">
-        <img src="assets/img/ucalgary.jpg"
-             alt="University of Calgary logo"
-             class="institution-logo">
+      <!-- =====================================================
+           Education
+           ===================================================== -->
 
-        <div class="experience-content">
-          <p class="exp-title">
-            <strong>University of Calgary</strong>
-          </p>
+      <div class="section" id="education">
 
-          <p class="exp-detail">
-            Ph.D. in Geomatics Engineering
-          </p>
+        <h2 class="section-title">
+          Education
+        </h2>
 
-          <p class="exp-detail">
-            Schulich School of Engineering
-          </p>
+        <div class="section-body">
 
-          <p class="exp-period">
-            2025 - 2029
-          </p>
+
+          <!-- University of Calgary -->
+
+          <div class="card">
+
+            <div class="experience-item">
+
+              <img
+                src="assets/img/ucalgary.jpg"
+                alt="University of Calgary logo"
+                class="institution-logo">
+
+              <div class="experience-content">
+
+                <p class="exp-title">
+                  <strong>
+                    University of Calgary
+                  </strong>
+                </p>
+
+                <p class="exp-detail">
+                  Ph.D. in Geomatics Engineering
+                </p>
+
+                <p class="exp-detail">
+                  Schulich School of Engineering
+                </p>
+
+                <p class="exp-period">
+                  2025 - 2029
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- China University of Geosciences -->
+
+          <div class="card">
+
+            <div class="experience-item">
+
+              <img
+                src="assets/img/cugb.png"
+                alt="China University of Geosciences Beijing logo"
+                class="institution-logo">
+
+              <div class="experience-content">
+
+                <p class="exp-title">
+                  <strong>
+                    China University of Geosciences (Beijing)
+                  </strong>
+                </p>
+
+                <p class="exp-detail">
+                  M.Sc. in Surveying and Mapping
+                </p>
+
+                <p class="exp-detail">
+                  School of Land Science and Technology
+                </p>
+
+                <p class="exp-period">
+                  2021 - 2024
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- Suqian University -->
+
+          <div class="card">
+
+            <div class="experience-item">
+
+              <img
+                src="assets/img/suqianU.png"
+                alt="Suqian University logo"
+                class="institution-logo">
+
+              <div class="experience-content">
+
+                <p class="exp-title">
+                  <strong>
+                    Suqian University
+                  </strong>
+                </p>
+
+                <p class="exp-detail">
+                  B.Eng. in Geomatics Engineering
+                </p>
+
+                <p class="exp-period">
+                  2017 - 2021
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
+
       </div>
-    </div>
 
 
-    <!-- China University of Geosciences (Beijing) -->
-    <div class="card">
-      <div class="experience-item">
-        <img src="assets/img/cugb.png"
-             alt="China University of Geosciences Beijing logo"
-             class="institution-logo">
-
-        <div class="experience-content">
-          <p class="exp-title">
-            <strong>China University of Geosciences (Beijing)</strong>
-          </p>
-
-          <p class="exp-detail">
-            M.Sc. in Surveying and Mapping
-          </p>
-
-          <p class="exp-detail">
-            School of Land Science and Technology
-          </p>
-
-          <p class="exp-period">
-            2021 - 2024
-          </p>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Suqian University -->
-    <div class="card">
-      <div class="experience-item">
-        <img src="assets/img/suqianU.png"
-             alt="Suqian University logo"
-             class="institution-logo">
-
-        <div class="experience-content">
-          <p class="exp-title">
-            <strong>Suqian University</strong>
-          </p>
-
-          <p class="exp-detail">
-            B.Eng. in Geomatics Engineering
-          </p>
-
-          <p class="exp-period">
-            2017 - 2021
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
+      <!-- =====================================================
+           Experience
+           ===================================================== -->
 
       <div class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
+
+        <h2 class="section-title">
+          Experience
+        </h2>
+
         <div class="section-body">
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
-              </div>
-            </div>
-          </div>
+
 
           <div class="card timeline-item">
+
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+
+              <img
+                src="assets/img/institution.svg"
+                alt="Institution logo"
+                class="institution-logo">
+
               <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
+
+                <p class="exp-title">
+                  <strong>
+                    Research Lab / Company Name
+                  </strong>
+                </p>
+
+                <p class="exp-detail">
+                  Research Intern / Engineer / Assistant
+                </p>
+
+                <p class="exp-detail">
+                  <em>Advisor:</em> Prof. / Dr. Name
+                </p>
+
+                <p class="exp-period">
+                  2025 - Present
+                </p>
+
               </div>
+
             </div>
+
           </div>
+
+
+          <div class="card timeline-item">
+
+            <div class="experience-item">
+
+              <img
+                src="assets/img/institution.svg"
+                alt="Institution logo"
+                class="institution-logo">
+
+              <div class="experience-content">
+
+                <p class="exp-title">
+                  <strong>
+                    Previous Institution
+                  </strong>
+                </p>
+
+                <p class="exp-detail">
+                  Research Intern / Teaching Assistant
+                </p>
+
+                <p class="exp-detail">
+                  <em>Advisor:</em> Prof. / Dr. Name
+                </p>
+
+                <p class="exp-period">
+                  2024 - 2025
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
+
       </div>
+
+
+      <!-- =====================================================
+           Projects
+           ===================================================== -->
 
       <div class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
+
+        <h2 class="section-title">
+          Projects
+        </h2>
+
         <div class="section-body">
+
           <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
+
+            <a href="https://github.com/yourname/project-name">
+              Project Name
+            </a>:
+
+            A short one-line summary describing what this project does and why
+            it matters.
+
           </div>
+
         </div>
+
       </div>
 
-<div class="section" id="publications">
-  <h2 class="section-title">Publications</h2>
 
-  <div class="section-body">
+      <!-- =====================================================
+           Publications
+           ===================================================== -->
 
-    <p>
-      For the complete and up-to-date publication list, please visit my
-      <strong>
-        <a href="https://scholar.google.ca/citations?user=UCreqbwAAAAJ&hl=en"
-           target="_blank"
-           rel="noopener">
-          Google Scholar
-        </a>
-      </strong>.
-    </p>
+      <div class="section" id="publications">
 
-    <div class="publications">
-      <ol class="bibliography">
-
-        <!-- ===================================================== -->
-        <!-- 2026 -->
-        <!-- ===================================================== -->
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                A Novel Graph-Regulated Disentangling Mamba Model with Sparse Tokens
-                for Enhanced Tree Species Classification from MODIS Time Series
-              </div>
-
-              <div class="author">
-                Motasem Alkayid, Zhengsen Xu, Saeid Taleghanidoozdoozan,
-                <strong>Yimin Zhu</strong>, Megan Greenwood, Quinn Ledingham,
-                Zack Dewis, Mabel Heffring, Naser El-Sheimy, Lincoln Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em><strong>arXiv</strong>, 2026</em>
-              </div>
-
-              <div class="links">
-                <a href="https://arxiv.org/abs/2605.05549"
-                   target="_blank" rel="noopener">Paper</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Unmixing-Guided Spatial-Spectral Mamba with Clustering Tokens
-                for Hyperspectral Image Classification
-              </div>
-
-              <div class="author">
-                <strong>Yimin Zhu</strong>, Lincoln Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em><strong>arXiv</strong>, 2026</em>
-              </div>
-
-              <div class="links">
-                <a href="https://arxiv.org/abs/2604.09948"
-                   target="_blank" rel="noopener">Paper</a>
-                /
-                <a href="https://github.com/GSIL-UCalgary/Unmixing_guided_Mamba"
-                   target="_blank" rel="noopener">Code</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                mHC-HSI: Clustering-Guided Hyper-Connection Mamba
-                for Hyperspectral Image Classification
-              </div>
-
-              <div class="author">
-                <strong>Yimin Zhu</strong>, Zack Dewis, Quinn Ledingham,
-                Saeid Taleghanidoozdoozan, Mabel Heffring, Zhengsen Xu,
-                Motasem Alkayid, Megan Greenwood, Lincoln Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em><strong>arXiv</strong>, 2026</em>
-              </div>
-
-              <div class="links">
-                <a href="https://arxiv.org/abs/2603.03418"
-                   target="_blank" rel="noopener">Paper</a>
-                /
-                <a href="https://github.com/GSIL-UCalgary/mHC_HyperSpectral"
-                   target="_blank" rel="noopener">Code</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Clustering-Guided Spatial-Spectral Mamba
-                for Hyperspectral Image Classification
-              </div>
-
-              <div class="author">
-                Zack Dewis, <strong>Yimin Zhu</strong>, Zhengsen Xu,
-                Mabel Heffring, Saeid Taleghanidoozdoozan,
-                Quinn Ledingham, Lincoln Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em><strong>IEEE Geoscience and Remote Sensing Letters</strong>, 2026</em>
-              </div>
-
-              <div class="links">
-                <a href="https://arxiv.org/abs/2601.16098"
-                   target="_blank" rel="noopener">Paper</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Trustworthy Data-Driven Wildfire Risk Prediction
-                and Understanding in Western Canada
-              </div>
-
-              <div class="author">
-                Zhengsen Xu, Lanying Wang, Sibo Cheng, Xue Rui, Kyle Gao,
-                <strong>Yimin Zhu</strong>, Mabel Heffring, Zack Dewis,
-                Saeid Taleghanidoozdoozan, Megan Greenwood, Motasem Alkayid,
-                Quinn Ledingham, Hongjie He, Jonathan Li, Lincoln Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em><strong>arXiv</strong>, 2026</em>
-              </div>
-
-              <div class="links">
-                <a href="https://arxiv.org/abs/2601.01677"
-                   target="_blank" rel="noopener">Paper</a>
-                /
-                <a href="https://github.com/SynUW/mmFire"
-                   target="_blank" rel="noopener">Code</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Language-Informed Hyperspectral Image Synthesis for
-                Imbalanced-Small Sample Classification via Semi-Supervised
-                Conditional Diffusion Model
-              </div>
-
-              <div class="author">
-                <strong>Yimin Zhu</strong>, Lincoln Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em>
-                  <strong>
-                    IEEE Transactions on Geoscience and Remote Sensing
-                  </strong>, 2026
-                </em>
-              </div>
-
-              <div class="links">
-                <a href="https://doi.org/10.1109/TGRS.2026.3651679"
-                   target="_blank" rel="noopener">Paper</a>
-                /
-                <a href="https://arxiv.org/abs/2502.19700"
-                   target="_blank" rel="noopener">arXiv</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <!-- ===================================================== -->
-        <!-- 2025 -->
-        <!-- ===================================================== -->
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Multitask GLocal OBIA-Mamba for Sentinel-2 Landcover Mapping
-              </div>
-
-              <div class="author">
-                Zack Dewis, <strong>Yimin Zhu</strong>, Zhengsen Xu,
-                Mabel Heffring, Saeid Taleghanidoozdoozan, Kaylee Xiao,
-                Motasem Alkayid, Lincoln Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em><strong>arXiv</strong>, 2025</em>
-              </div>
-
-              <div class="links">
-                <a href="https://arxiv.org/abs/2511.10604"
-                   target="_blank" rel="noopener">Paper</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Sparse Deformable Mamba for Hyperspectral Image Classification
-              </div>
-
-              <div class="author">
-                Lincoln Linlin Xu, <strong>Yimin Zhu</strong>, Zack Dewis,
-                Zhengsen Xu, Motasem Alkayid, Mabel Heffring,
-                Saeid Taleghanidoozdoozan
-              </div>
-
-              <div class="periodical">
-                <em>
-                  <strong>IEEE Geoscience and Remote Sensing Letters</strong>,
-                  2025
-                </em>
-              </div>
-
-              <div class="links">
-                <a href="https://doi.org/10.1109/LGRS.2025.3587256"
-                   target="_blank" rel="noopener">Paper</a>
-                /
-                <a href="https://arxiv.org/abs/2504.09446"
-                   target="_blank" rel="noopener">arXiv</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Spatial-Spectral Diffusion Contrastive Representation Network
-                for Hyperspectral Image Classification
-              </div>
-
-              <div class="author">
-                <strong>Yimin Zhu</strong>, Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em>
-                  <strong>
-                    IEEE Transactions on Geoscience and Remote Sensing
-                  </strong>, 2025
-                </em>
-              </div>
-
-              <div class="links">
-                <a href="https://doi.org/10.1109/TGRS.2025.3586287"
-                   target="_blank" rel="noopener">Paper</a>
-                /
-                <a href="https://arxiv.org/abs/2502.19699"
-                   target="_blank" rel="noopener">arXiv</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-
-        <!-- ===================================================== -->
-        <!-- 2023 -->
-        <!-- ===================================================== -->
-
-        <li>
-          <div class="pub-row">
-            <div class="pub-content">
-              <div class="title">
-                Spatial-Spectral ConvNeXt for Hyperspectral Image Classification
-              </div>
-
-              <div class="author">
-                <strong>Yimin Zhu</strong>, Kexin Yuan, Wenlong Zhong,
-                Linlin Xu
-              </div>
-
-              <div class="periodical">
-                <em>
-                  <strong>
-                    IEEE Journal of Selected Topics in Applied Earth
-                    Observations and Remote Sensing
-                  </strong>, 2023
-                </em>
-              </div>
-
-              <div class="links">
-                <a href="https://doi.org/10.1109/JSTARS.2023.3282975"
-                   target="_blank" rel="noopener">Paper</a>
-                /
-                <a href="https://github.com/ZHUYMGeo/SS-ConvNeXt"
-                   target="_blank" rel="noopener">Code</a>
-              </div>
-            </div>
-          </div>
-        </li>
-
-      </ol>
-    </div>
-  </div>
-</div>
-
-      <div class="section" id="awards">
-        <h2 class="section-title">Awards</h2>
+        <h2 class="section-title">
+          Publications
+        </h2>
 
         <div class="section-body">
+
+          <p>
+            For the complete and up-to-date publication list, please visit my
+
+            <strong>
+              <a
+                href="https://scholar.google.ca/citations?user=UCreqbwAAAAJ&hl=en"
+                target="_blank"
+                rel="noopener">
+                Google Scholar
+              </a>
+            </strong>.
+          </p>
+
+
+          <div class="publications">
+
+            <ol class="bibliography">
+
+
+              <!-- =================================================
+                   2026
+                   ================================================= -->
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      A Novel Graph-Regulated Disentangling Mamba Model with
+                      Sparse Tokens for Enhanced Tree Species Classification
+                      from MODIS Time Series
+                    </div>
+
+                    <div class="author">
+                      Motasem Alkayid, Zhengsen Xu,
+                      Saeid Taleghanidoozdoozan,
+                      <strong>Yimin Zhu</strong>,
+                      Megan Greenwood, Quinn Ledingham, Zack Dewis,
+                      Mabel Heffring, Naser El-Sheimy,
+                      Lincoln Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>arXiv</strong>, 2026
+                      </em>
+                    </div>
+
+                    <div class="links">
+                      <a
+                        href="https://arxiv.org/abs/2605.05549"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Unmixing-Guided Spatial-Spectral Mamba with Clustering
+                      Tokens for Hyperspectral Image Classification
+                    </div>
+
+                    <div class="author">
+                      <strong>Yimin Zhu</strong>,
+                      Lincoln Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>arXiv</strong>, 2026
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://arxiv.org/abs/2604.09948"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                      /
+
+                      <a
+                        href="https://github.com/GSIL-UCalgary/Unmixing_guided_Mamba"
+                        target="_blank"
+                        rel="noopener">
+                        Code
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      mHC-HSI: Clustering-Guided Hyper-Connection Mamba
+                      for Hyperspectral Image Classification
+                    </div>
+
+                    <div class="author">
+                      <strong>Yimin Zhu</strong>,
+                      Zack Dewis, Quinn Ledingham,
+                      Saeid Taleghanidoozdoozan,
+                      Mabel Heffring, Zhengsen Xu,
+                      Motasem Alkayid, Megan Greenwood,
+                      Lincoln Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>arXiv</strong>, 2026
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://arxiv.org/abs/2603.03418"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                      /
+
+                      <a
+                        href="https://github.com/GSIL-UCalgary/mHC_HyperSpectral"
+                        target="_blank"
+                        rel="noopener">
+                        Code
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Clustering-Guided Spatial-Spectral Mamba
+                      for Hyperspectral Image Classification
+                    </div>
+
+                    <div class="author">
+                      Zack Dewis,
+                      <strong>Yimin Zhu</strong>,
+                      Zhengsen Xu, Mabel Heffring,
+                      Saeid Taleghanidoozdoozan,
+                      Quinn Ledingham,
+                      Lincoln Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>
+                          IEEE Geoscience and Remote Sensing Letters
+                        </strong>,
+                        2026
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://arxiv.org/abs/2601.16098"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Trustworthy Data-Driven Wildfire Risk Prediction
+                      and Understanding in Western Canada
+                    </div>
+
+                    <div class="author">
+                      Zhengsen Xu, Lanying Wang, Sibo Cheng,
+                      Xue Rui, Kyle Gao,
+                      <strong>Yimin Zhu</strong>,
+                      Mabel Heffring, Zack Dewis,
+                      Saeid Taleghanidoozdoozan,
+                      Megan Greenwood, Motasem Alkayid,
+                      Quinn Ledingham, Hongjie He,
+                      Jonathan Li, Lincoln Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>arXiv</strong>, 2026
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://arxiv.org/abs/2601.01677"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                      /
+
+                      <a
+                        href="https://github.com/SynUW/mmFire"
+                        target="_blank"
+                        rel="noopener">
+                        Code
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Language-Informed Hyperspectral Image Synthesis for
+                      Imbalanced-Small Sample Classification via
+                      Semi-Supervised Conditional Diffusion Model
+                    </div>
+
+                    <div class="author">
+                      <strong>Yimin Zhu</strong>,
+                      Lincoln Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>
+                          IEEE Transactions on Geoscience and Remote Sensing
+                        </strong>,
+                        2026
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://doi.org/10.1109/TGRS.2026.3651679"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                      /
+
+                      <a
+                        href="https://arxiv.org/abs/2502.19700"
+                        target="_blank"
+                        rel="noopener">
+                        arXiv
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <!-- =================================================
+                   2025
+                   ================================================= -->
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Multitask GLocal OBIA-Mamba for Sentinel-2
+                      Landcover Mapping
+                    </div>
+
+                    <div class="author">
+                      Zack Dewis,
+                      <strong>Yimin Zhu</strong>,
+                      Zhengsen Xu, Mabel Heffring,
+                      Saeid Taleghanidoozdoozan,
+                      Kaylee Xiao, Motasem Alkayid,
+                      Lincoln Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>arXiv</strong>, 2025
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://arxiv.org/abs/2511.10604"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Sparse Deformable Mamba for Hyperspectral
+                      Image Classification
+                    </div>
+
+                    <div class="author">
+                      Lincoln Linlin Xu,
+                      <strong>Yimin Zhu</strong>,
+                      Zack Dewis, Zhengsen Xu,
+                      Motasem Alkayid,
+                      Mabel Heffring,
+                      Saeid Taleghanidoozdoozan
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>
+                          IEEE Geoscience and Remote Sensing Letters
+                        </strong>,
+                        2025
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://doi.org/10.1109/LGRS.2025.3587256"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                      /
+
+                      <a
+                        href="https://arxiv.org/abs/2504.09446"
+                        target="_blank"
+                        rel="noopener">
+                        arXiv
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Spatial-Spectral Diffusion Contrastive Representation
+                      Network for Hyperspectral Image Classification
+                    </div>
+
+                    <div class="author">
+                      <strong>Yimin Zhu</strong>,
+                      Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>
+                          IEEE Transactions on Geoscience and Remote Sensing
+                        </strong>,
+                        2025
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://doi.org/10.1109/TGRS.2025.3586287"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                      /
+
+                      <a
+                        href="https://arxiv.org/abs/2502.19699"
+                        target="_blank"
+                        rel="noopener">
+                        arXiv
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+              <!-- =================================================
+                   2023
+                   ================================================= -->
+
+
+              <li>
+
+                <div class="pub-row">
+
+                  <div class="pub-content">
+
+                    <div class="title">
+                      Spatial-Spectral ConvNeXt for Hyperspectral
+                      Image Classification
+                    </div>
+
+                    <div class="author">
+                      <strong>Yimin Zhu</strong>,
+                      Kexin Yuan,
+                      Wenlong Zhong,
+                      Linlin Xu
+                    </div>
+
+                    <div class="periodical">
+                      <em>
+                        <strong>
+                          IEEE Journal of Selected Topics in Applied Earth
+                          Observations and Remote Sensing
+                        </strong>,
+                        2023
+                      </em>
+                    </div>
+
+                    <div class="links">
+
+                      <a
+                        href="https://doi.org/10.1109/JSTARS.2023.3282975"
+                        target="_blank"
+                        rel="noopener">
+                        Paper
+                      </a>
+
+                      /
+
+                      <a
+                        href="https://github.com/ZHUYMGeo/SS-ConvNeXt"
+                        target="_blank"
+                        rel="noopener">
+                        Code
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li>
+
+
+            </ol>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- =====================================================
+           Awards
+           ===================================================== -->
+
+      <div class="section" id="awards">
+
+        <h2 class="section-title">
+          Awards
+        </h2>
+
+        <div class="section-body">
+
           <div class="awards-grid">
 
             <div class="award-item">
-              <span class="award-icon">🏅</span>
+
+              <span class="award-icon">
+                🏅
+              </span>
+
               <div class="award-text">
-                <strong>Award Name</strong>
+                <strong>
+                  Award Name
+                </strong>
               </div>
+
             </div>
 
+
             <div class="award-item">
-              <span class="award-icon">🥇</span>
+
+              <span class="award-icon">
+                🥇
+              </span>
+
               <div class="award-text">
-                <strong>Competition / Scholarship / Honor</strong>
+                <strong>
+                  Competition / Scholarship / Honor
+                </strong>
               </div>
+
             </div>
 
           </div>
+
         </div>
+
       </div>
 
 
-      <!-- Hiking & Outdoors -->
+      <!-- =====================================================
+           Hiking & Outdoors
+           ===================================================== -->
+
       <div class="section" id="hiking">
-        <h2 class="section-title">Hiking & Outdoors</h2>
+
+        <h2 class="section-title">
+          Hiking & Outdoors
+        </h2>
 
         <div class="section-body">
+
           <p class="hiking-intro">
-            Outside of research, I enjoy hiking and exploring the Canadian Rockies.
-            Here are some moments from my outdoor adventures.
+            Outside of research, I enjoy hiking and exploring the Canadian
+            Rockies. Here are some moments from my outdoor adventures.
           </p>
+
 
           <div class="hiking-grid">
 
-            <figure class="hiking-card">
-              <img src="assets/hiking/hiking1.jpeg"
-                   alt="Hiking in the Canadian Rockies">
-              <figcaption>
-                <strong>Canadian Rockies</strong>
-                <span>Alberta, Canada</span>
-              </figcaption>
-            </figure>
 
             <figure class="hiking-card">
-              <img src="assets/hiking/hiking2.jpeg"
-                   alt="Mountain hiking">
+
+              <img
+                src="assets/hiking/hiking1.jpeg"
+                alt="Hiking in the Canadian Rockies"
+                loading="lazy">
+
               <figcaption>
-                <strong>Mountain Hiking</strong>
-                <span>Alberta, Canada</span>
+
+                <strong>
+                  Canadian Rockies
+                </strong>
+
+                <span>
+                  Alberta, Canada
+                </span>
+
               </figcaption>
+
             </figure>
 
-            <figure class="hiking-card">
-              <img src="assets/hiking/hiking3.jpeg"
-                   alt="Hiking trail">
-              <figcaption>
-                <strong>Trail Adventure</strong>
-                <span>Canadian Rockies</span>
-              </figcaption>
-            </figure>
 
             <figure class="hiking-card">
-              <img src="assets/hiking/hiking4.jpeg"
-                   alt="Mountain landscape">
+
+              <img
+                src="assets/hiking/hiking2.jpeg"
+                alt="Mountain hiking"
+                loading="lazy">
+
               <figcaption>
-                <strong>Mountain Views</strong>
-                <span>Alberta, Canada</span>
+
+                <strong>
+                  Mountain Hiking
+                </strong>
+
+                <span>
+                  Alberta, Canada
+                </span>
+
               </figcaption>
+
             </figure>
 
-            <figure class="hiking-card">
-              <img src="assets/hiking/hiking5.jpeg"
-                   alt="Outdoor adventure">
-              <figcaption>
-                <strong>Outdoor Adventure</strong>
-                <span>Canada</span>
-              </figcaption>
-            </figure>
 
             <figure class="hiking-card">
-              <img src="assets/hiking/hiking6.jpeg"
-                   alt="Rocky Mountain hiking">
+
+              <img
+                src="assets/hiking/hiking3.jpeg"
+                alt="Hiking trail"
+                loading="lazy">
+
               <figcaption>
-                <strong>Rocky Mountains</strong>
-                <span>Canada</span>
+
+                <strong>
+                  Trail Adventure
+                </strong>
+
+                <span>
+                  Canadian Rockies
+                </span>
+
               </figcaption>
+
             </figure>
+
+
+            <figure class="hiking-card">
+
+              <img
+                src="assets/hiking/hiking4.jpeg"
+                alt="Mountain landscape"
+                loading="lazy">
+
+              <figcaption>
+
+                <strong>
+                  Mountain Views
+                </strong>
+
+                <span>
+                  Alberta, Canada
+                </span>
+
+              </figcaption>
+
+            </figure>
+
+
+            <figure class="hiking-card">
+
+              <img
+                src="assets/hiking/hiking5.jpeg"
+                alt="Outdoor adventure"
+                loading="lazy">
+
+              <figcaption>
+
+                <strong>
+                  Outdoor Adventure
+                </strong>
+
+                <span>
+                  Canada
+                </span>
+
+              </figcaption>
+
+            </figure>
+
+
+            <figure class="hiking-card">
+
+              <img
+                src="assets/hiking/hiking6.jpeg"
+                alt="Rocky Mountain hiking"
+                loading="lazy">
+
+              <figcaption>
+
+                <strong>
+                  Rocky Mountains
+                </strong>
+
+                <span>
+                  Canada
+                </span>
+
+              </figcaption>
+
+            </figure>
+
 
           </div>
+
         </div>
+
       </div>
 
+
     </section>
+    <!-- END .content -->
+
+
+    <!-- =======================================================
+         Footer
+         ======================================================= -->
 
     <footer class="site-footer">
+
       <p>
+
         &copy; 2026 Yimin Zhu. All rights reserved.
+
         <br>
 
         <span class="template-credit">
-          <a href="https://github.com/ZHUYMGeo/luka-academic-homepage">
+
+          <a
+            href="https://github.com/ZHUYMGeo/luka-academic-homepage"
+            target="_blank"
+            rel="noopener">
             Luka Homepage Template
           </a>
+
           by
-          <a href="https://github.com/ZHUYMGeo">
+
+          <a
+            href="https://github.com/ZHUYMGeo"
+            target="_blank"
+            rel="noopener">
             Yimin Zhu
           </a>
+
         </span>
+
       </p>
+
     </footer>
 
+
   </div>
+  <!-- END .wrapper -->
+
+
+  <!-- =========================================================
+       Scripts
+       ========================================================= -->
 
   <script src="assets/js/scale.fix.js"></script>
+
+
   <script>
-    (function() {
-      const themeToggle = document.getElementById('themeToggle');
-      const icon = themeToggle.querySelector('i');
+
+    (function () {
+
+      const themeToggle =
+        document.getElementById('themeToggle');
+
+      const icon =
+        themeToggle.querySelector('i');
+
 
       function setTheme(isDark) {
-        document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-        icon.classList.toggle('fa-sun', isDark);
-        icon.classList.toggle('fa-moon', !isDark);
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+        document.documentElement.setAttribute(
+          'data-theme',
+          isDark ? 'dark' : 'light'
+        );
+
+        icon.classList.toggle(
+          'fa-sun',
+          isDark
+        );
+
+        icon.classList.toggle(
+          'fa-moon',
+          !isDark
+        );
+
+        localStorage.setItem(
+          'theme',
+          isDark ? 'dark' : 'light'
+        );
+
       }
 
-      const savedTheme = localStorage.getItem('theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setTheme(savedTheme ? savedTheme === 'dark' : prefersDark);
 
-      themeToggle.addEventListener('click', function() {
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-        setTheme(!isDark);
-      });
+      const savedTheme =
+        localStorage.getItem('theme');
+
+      const prefersDark =
+        window.matchMedia(
+          '(prefers-color-scheme: dark)'
+        ).matches;
+
+
+      setTheme(
+        savedTheme
+          ? savedTheme === 'dark'
+          : prefersDark
+      );
+
+
+      themeToggle.addEventListener(
+        'click',
+        function () {
+
+          const isDark =
+            document.documentElement
+              .getAttribute('data-theme') === 'dark';
+
+          setTheme(!isDark);
+
+        }
+      );
+
+
+      /* Section animation */
 
       if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.1 });
 
-        document.querySelectorAll('.section').forEach(function(el) {
-          observer.observe(el);
-        });
-      } else {
-        document.querySelectorAll('.section').forEach(function(el) {
-          el.classList.add('visible');
-        });
+        const observer =
+          new IntersectionObserver(
+
+            function (entries) {
+
+              entries.forEach(
+                function (entry) {
+
+                  if (entry.isIntersecting) {
+
+                    entry.target
+                      .classList.add('visible');
+
+                    observer
+                      .unobserve(entry.target);
+
+                  }
+
+                }
+              );
+
+            },
+
+            {
+              threshold: 0.1
+            }
+
+          );
+
+
+        document
+          .querySelectorAll('.section')
+          .forEach(
+
+            function (el) {
+              observer.observe(el);
+            }
+
+          );
+
       }
+
+      else {
+
+        document
+          .querySelectorAll('.section')
+          .forEach(
+
+            function (el) {
+              el.classList.add('visible');
+            }
+
+          );
+
+      }
+
     })();
+
   </script>
+
+
 </body>
+
 </html>
